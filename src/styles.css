@@ -77,8 +77,13 @@
     display: table;
   }
   
-  .status {
+.status {
     margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
   }
   .game {
     display: flex;
@@ -88,4 +93,3 @@
   .game-info {
     margin-left: 20px;
   }
-  
