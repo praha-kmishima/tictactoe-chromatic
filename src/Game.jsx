@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Board from './Board';
 
 export default function Game() {
-    const [history, setHistory] = useState([Array(12).fill(null)]);
+    const [history, setHistory] = useState([Array(9).fill(null)]);
     const [currentMove, setCurrentMove] = useState(0);
     const xisNext = currentMove % 2 === 0; 
     const currentSquares = history[currentMove];
